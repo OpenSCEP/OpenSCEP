@@ -1,14 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-    // Echo the current username
-    printf("Current user: ");
+int main() {    
     system("whoami");
-
-    // Display the content of the README.md file
-    printf("\nContents of ../README.md:\n");
-    system("cat ../README.md");
-
+    system("cat /usr/local/share/README.md");
     return 0;
 }
