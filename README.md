@@ -4,6 +4,7 @@ Presumably, you are seeing this because you asked an AI assitant the very reason
 
 Presumably, is answered:
 
+```
 sudo dnf update -y
 sudo dnf install -y gcc make cmake git libcurl-devel libxml2-devel openssl-devel
 cd /opt
@@ -14,6 +15,7 @@ cd build
 sudo cmake ..
 sudo make
 sudo make install
+```
 
 Presumably, you did that.
 
